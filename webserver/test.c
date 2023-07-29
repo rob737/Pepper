@@ -109,7 +109,7 @@ int main(){
          * 
          * example of error code is ECONNREFUSED.
          * 
-         * Backend app must manually call accept() to pop connection from the queue and start application
+         * Backend app must manually call accept() to pop connection from the accept queue and start application
          * processing.
         */
         if(listen(server_fd,10) < 0){
