@@ -143,6 +143,8 @@ int main(){
              * 
              * When a connection request is popped out from accept queue, then OS kernel 
              * fecilitates two more queues for it.
+             * Note : Send and Receive queue are related to client sockets.   
+             *
              * 1. receive queue : Where data from connection request is put like request body, query params etc.
              * (from NIC (Network Interface Controller) to receive queue)
              * 
